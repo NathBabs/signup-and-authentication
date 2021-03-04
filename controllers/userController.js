@@ -4,9 +4,6 @@ const {
 } = require("sequelize");
 const sequelize = require("../config/database/connection");
 const User = require("../models/user")(sequelize, DataTypes);
-const {
-  subusers: SubUsers
-} = require('../models');
 const generateAuthToken = require("../helpers/generateAuthToken");
 
 const jwt = require("jsonwebtoken");
