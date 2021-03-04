@@ -1,0 +1,11 @@
+{
+  "name": "jwt-authentication-postgres",
+  "version": "1.0.0",
+  "description": "basic jwt authentication with Node.js using express and postgres with sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathaniel Babalola",
+  "license": "ISC"
+}
