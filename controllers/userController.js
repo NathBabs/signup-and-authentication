@@ -218,7 +218,7 @@ exports.sendResetLink = async (req, res, next) => {
       "data": [{
         "email": `${user.email}`,
         "from": "support@company.com",
-        "fromName": "Scelloo support",
+        "fromName": "Company support",
         "replyTo": "noreply@company.com",
         "replyToName": " Support",
         "subject": "Password Reset link",
